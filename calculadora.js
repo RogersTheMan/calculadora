@@ -39,7 +39,6 @@ btn.addEventListener("click", function calc() {
     n1.focus();
     n1.value = "";
     n2.value = "";
-
   }
 });
 
@@ -52,7 +51,7 @@ const multiplicar = (num1, num2) => num1.times(num2);
 const dividir = (num1, num2) => num1.div(num2);
 
 const potência = (num1, num2) => {
-    num1 = Number(num1)
-    num2 = Number(num2)
-    return num1 ** num2
+  num1 = Number(num1);
+  num2 = Number(num2);
+  return num1 ** num2;
 };
