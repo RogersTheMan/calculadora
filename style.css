@@ -1,0 +1,51 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: rgb(61, 59, 59);
+    background-size: 300% 300%;
+  }
+  
+  .box {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .input {
+    color: white;
+    background-color: #666;
+  }
+
+  .input::placeholder {
+    color: white;
+  }
+
+  
+  .input:focus{
+    color: white;
+    background-color: #555;
+  }
+
+  
+  img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
+    width: 400px;
+  }
+  
+
+  .btn {
+    margin: 1rem 0;
+  }
+
+  #resp {
+    margin: 1rem 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(61, 59, 59);
+  }
+  
+  

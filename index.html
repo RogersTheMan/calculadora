@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora!</title>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="box ">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h1>Calculadora!</h1>
+                    </div>
+                    <div class="text-center">
+                        <div class="row">
+                            <div class="col-md-4 mb-2">
+                                <input type="number" id="n1" class="form-control input" placeholder="Digite um número">
+                            </div>
+                            <div class="col-md-4 mb-2">
+                                <select class="form-select" id="calc">
+                                    <option value="mais">Somar</option>
+                                    <option value="menos">Subtrair</option>
+                                    <option value="vezes">Multiplicar</option>
+                                    <option value="divisao">Dividir</option>
+                                    <option value="potência">Potênciação</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 mb-2">
+                                <input type="number" id="n2" class="form-control input" placeholder="Digite um número">
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-secondary" id="btn">Calcular</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="gif" class="img-fluid col-12 text-center">
+                        <img src="https://64.media.tumblr.com/tumblr_m2a0k4mEF71rsmfs0o1_250.gifv" alt="">
+                    </div>
+                    <div id="resp" class="col-12">
+                        <p>Digite dois números para começar!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src='../TesteBigJS/lib/big.js'></script>
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
